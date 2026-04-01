@@ -1,0 +1,26 @@
+# Web & API
+fastapi[standard]
+uvicorn
+pydantic[email]>=2.6.0
+python-multipart
+
+# Databases
+sqlalchemy>=2.0.0
+aiosqlite
+psycopg[binary]
+qdrant-client
+redis
+
+# AI & Semantic Search
+sentence-transformers
+numpy
+
+# Background Tasks
+celery
+flower
+
+# Quality & Testing
+pytest
+pytest-asyncio
+pytest-cov
+ruff
